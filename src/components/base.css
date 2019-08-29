@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
+/* @font-face {
+  font-family: 'Special Elite', cursive;
+  font-weight: 400;
+  font-style: normal;
+  src: url("/avenir-400.woff2") format("woff2"); 
+  font-display: swap;
+} */
+
+
+body {
+  /* font-family: "Avenir", Tahoma, Arial, Helvetica, sans-serif; */
+  font-family: 'Special Elite', cursive;
+  font-size: 1em;
+  line-height: 1.65;
+  color: #373F49;
+  background: #99d9f5;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+a {
+  color: currentColor;
+}
+
+.wrapper {
+  width: calc(100% - 10vmin);
+  margin: 0 auto;
+  padding: 5vmin 0;
+}
+
+/**
+ * article grid
+ */
+.article-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5vmin;
+}
+
+/**
+ *
+ */
+.section-headline {
+  padding: 0 0 0.4em 0;
+  margin: 0 0 5vmin 0;
+  border-bottom: 1px solid #000;
+}
+
+/**
+ *
+ */
+.list-inline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+}
